@@ -23,6 +23,8 @@ def get_literal(tags):
         res.append(tag2literal.get(tag))
     return res
 
+literal2tag = get_literal(tag2literal)
+
 
 def split_sentence(sentence, all_tags):
     words = []
